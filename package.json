@@ -1,0 +1,44 @@
+{
+  "name": "ymkj",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack-dev-server",
+    "build": "webpack",
+    "babel": "babel"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "array-includes": "^3.0.3",
+    "babel": "^6.23.0",
+    "babel-core": "^6.26.3",
+    "babel-generator": "^6.26.1",
+    "babel-helpers": "^6.24.1",
+    "babel-loader": "^7.1.5",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-0": "^6.24.1",
+    "css-loader": "^0.28.11",
+    "extract-text-webpack-plugin": "^4.0.0-beta.0",
+    "file-loader": "^1.1.11",
+    "html-webpack-plugin": "^3.2.0",
+    "jquery": "^3.3.1",
+    "less": "^3.7.1",
+    "less-loader": "^4.1.0",
+    "react": "^16.4.2",
+    "react-dom": "^16.4.1",
+    "semantic-ui": "^2.4.0",
+    "string-replace-webpack-plugin": "^0.1.3",
+    "style-loader": "^0.21.0",
+    "url-loader": "^1.0.1",
+    "webpack": "^4.16.5",
+    "webpack-cli": "^3.0.8",
+    "webpack-dev-server": "^3.1.5"
+  },
+  "dependencies": {
+    "expose-loader": "^0.7.5"
+  }
+}
